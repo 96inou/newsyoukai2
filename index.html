@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/b9a588db26.js" crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <span>Profile</span>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#section-01"><i class="fas fa-envelope-square letter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram-square insta"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square twitter"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- ーーーーーヘッダーここまでーーーーー -->
+    <main>
+        <section class="ue">
+            <h1 class="name">Sakura Tomori</h1>
+            <ul class="prof">
+                <li>Okinawa</li>
+                <li>Drawing | Software used: CLIP STUDIO PAINT</li>
+            </ul>
+        </section>
+        <!-- ーーーーーセクション1ここまでーーーーー -->
+        <section class="mannaka">
+            <p>This a picture I drew. </p>
+            <div class="sakuhin">
+            <img src="./img/作品②.jpg" alt="drew2">
+            <img src="./img/作品①.jpg" alt="drew1">
+            <img src="./img/作品③.jpg" alt="drew3">
+            </div>
+        </section>
+        <!-- ーーーーー作品ここまでーーーーー -->
+            <form method="post" action="">
+                <p id="section-01">Contact</p>
+                <ul class="formTable">
+                  <li>
+                    <p class="title">Name</p>
+                    <div class="box_det"><input size="20" type="text" class="wide" name="Name" /></div>
+                  </li>
+                  <li>
+                    <p class="title">Mail</p>
+                    <div class="box_det"><input size="20" type="text" class="wide" name="Email" /></div>
+                  </li>
+                  <li>
+                    <p class="title"><em>Inquiry</em></p>
+                    <div class="box_det"><textarea name="お問い合わせ" cols="50" rows="5"></textarea></div>
+                  </li>
+                </ul>
+                <p class="btn">
+                    <span><input type="submit" value="　 確認 　" /></span>
+                </p>
+            </form>
+            <footer class="shita">
+                <p>Copyright  <small>&#169;</small> Sakura Tomori.</p>
+          </footer>
+    </main>
+</body>
+</html>
